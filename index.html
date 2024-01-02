@@ -1,0 +1,690 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Redbus Clone</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Hind:wght@600&family=Montserrat:ital,wght@0,400;1,100&family=Nunito:wght@300;500&family=Oswald&display=swap"
+        rel="stylesheet">
+    <script src="https://kit.fontawesome.com/0dcec699b7.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+        <header>
+            <div class="navbar">
+                <img src="Assets/rdc-redbus-logo.svg" alt="Redbus logo" height="48px"
+                    width="80px">
+                <span class="vertical-rule"></span>
+                <ul class="primary-nav-list">
+                    <li class="primary-item"><img src="Assets/rb_vertical.svg"
+                            alt="Bus Tickets"><span>Bus Tickets</span></li>
+                    <li class="primary-item"><img src="Assets/ryde_vertical.svg"
+                            alt="Cab Rental"><span>Cab Rental</span></li>
+                    <li class="primary-item"><img src="Assets/rail_vertical.svg"
+                            alt="Train Tickets"><span>Train Tickets</span></li>
+                </ul>
+                <ul class="secondary-nav-list">
+                    <li class="secondary-item"><img src="./Assets/headphones-support.svg" alt=""><span> Help</span></li>
+                    <li class="secondary-item"><i class="fa-regular fa-circle-user fa-xl"></i><span> Account</span><i class="fa-solid fa-caret-down"></i></li>
+                </ul>
+            </div>
+        </header>
+        <section class="search-section">
+            <h1 class="heading">India's No. 1 Online Bus Ticket Booking Site</h1>
+            <div class="search-box">
+                <div class="search-bar">
+                    <div class="from-to">
+                        <img src="./Assets/from.png" alt="">
+                        <div class="search-from-to">
+                            <input type="text" id="src" name="src" class="src">
+                            <label for="src">From</label>
+                        </div>
+                    </div>
+                    <div class="from-to-arrow">
+                        <i class="fa-solid fa-arrow-right-arrow-left fa-lg"></i>
+                    </div>
+                    <div class="from-to">
+                        <img src="./Assets/to.png" alt="">
+                        <div class="search-from-to">
+                            <input type="text" id="to" name="to" class="to">
+                            <label for="to">To</label>
+                        </div>
+                    </div>
+                    <div class="from-to date">
+                        <img src="./Assets/date.png" alt="">
+                        <div class="search-from-to">
+                            <!-- <input type="date" id="date" name="date" class="date"> -->
+                            <label for="date">Date</label>
+                        </div>
+                    </div>
+                    <button class="button">SEARCH BUSES</button>
+                   
+                </div>
+            </div>
+
+            <!-- For Offer -->
+            <div class="offer-wrapper">
+                <div class="offer-card">
+                    <div class="offer-header">
+                        <h2>TRENDING OFFERS</h2>
+                        <a href="#">View All</a>
+                    </div>
+                    <div class="carousel-wrapper">
+                        <div class="carousel-card carousel-card1">
+                            <div class="offer-logo">
+                                <img src="Assets/trending offer 1.png"
+                                    alt="">
+                            </div>
+                            <div class="offer-descrption">
+                                <div class="bus">Bus</div>
+                                <div class="offer-discount">Save up to Rs 250 on bus tickets</div>
+                                <div class="offer-validity">Valid till 30 Nov</div>
+                                <div class="offer-footer">
+                                    <div class="offer-code">FIRST</div>
+                                    <div class="code-copy"><img src="https://s2.rdbuz.com/web/images/homeV2/copy.svg"
+                                            alt=""></div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="carousel-card carousel-card2">
+                            <div class="offer-logo">
+                                <img src="Assets/trending offer 2.png"
+                                    alt="">
+                            </div>
+                            <div class="offer-descrption">
+                                <div class="bus">Bus</div>
+                                <div class="offer-discount">Save up to Rs 250 on bus tickets</div>
+                                <div class="offer-validity">Valid till 30 Nov</div>
+                                <div class="offer-footer">
+                                    <div class="offer-code">FIRST</div>
+                                    <div class="code-copy"><img src="https://s2.rdbuz.com/web/images/homeV2/copy.svg"
+                                            alt=""></div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="carousel-card carousel-card3">
+                            <div class="offer-logo">
+                                <img src="Assets/trending offer 3.png"
+                                    alt="">
+                            </div>
+                            <div class="offer-descrption">
+                                <div class="bus">Bus</div>
+                                <div class="offer-discount">Save up to Rs 250 on bus tickets</div>
+                                <div class="offer-validity">Valid till 30 Nov</div>
+                                <div class="offer-footer">
+                                    <div class="offer-code">FIRST</div>
+                                    <div class="code-copy"><img src="https://s2.rdbuz.com/web/images/homeV2/copy.svg"
+                                            alt=""></div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="carousel-card carousel-card4">
+                            <div class="offer-logo">
+                                <img src="Assets/trending offer 4.png"
+                                    alt="">
+                            </div>
+                            <div class="offer-descrption">
+                                <div class="bus">Bus</div>
+                                <div class="offer-discount">Save up to Rs 250 on bus tickets</div>
+                                <div class="offer-validity">Valid till 30 Nov</div>
+                                <div class="offer-footer">
+                                    <div class="offer-code">FIRST</div>
+                                    <div class="code-copy"><img src="https://s2.rdbuz.com/web/images/homeV2/copy.svg"
+                                            alt=""></div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="carousel-card carousel-card5">
+                            <div class="offer-logo">
+                                <img src="Assets/trending offer 5.png"
+                                    alt="">
+                            </div>
+                            <div class="offer-descrption">
+                                <div class="bus">Bus</div>
+                                <div class="offer-discount">Save up to Rs 250 on bus tickets</div>
+                                <div class="offer-validity">Valid till 30 Nov</div>
+                                <div class="offer-footer">
+                                    <div class="offer-code">FIRST</div>
+                                    <div class="code-copy"><img src="https://s2.rdbuz.com/web/images/homeV2/copy.svg"
+                                            alt=""></div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="carousel-card carousel-card6">
+                            <div class="offer-logo">
+                                <img src="Assets/trending offer 6.png"
+                                    alt="">
+                            </div>
+                            <div class="offer-descrption">
+                                <div class="bus">Bus</div>
+                                <div class="offer-discount">Save up to Rs 250 on bus tickets</div>
+                                <div class="offer-validity">Valid till 30 Nov</div>
+                                <div class="offer-footer">
+                                    <div class="offer-code">FIRST</div>
+                                    <div class="code-copy"><img src="https://s2.rdbuz.com/web/images/homeV2/copy.svg"
+                                            alt=""></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <div class="gap"></div>
+        <div class="ad-wrapper">
+            <div class="ad-insta">
+                <img src="Assets/webreferal.png" alt="">
+            </div>
+        </div>
+
+    <!-- About Us Section -->
+    <div class="aboutUsWrapper">
+        <div class="aboutUsBox">
+            <section class="left">
+                <h1>NOW, <b>GET MORE THAN<br>JUST BUS</b> TICKETS WITH<br>REDBUS!</h1>
+                <ul class="booking-list">
+                    <li class="booking-list-item booking-list-item-active"><img src="https://s2.rdbuz.com/web/images/homeV2/AboutUs/ryde.svg" alt=""><span>Cab/Bus Rental</span></li>
+                    <span class="vertical-rule2"></span>
+                    <li class="booking-list-item"><img id="train-logo" src="https://s1.rdbuz.com/web/images/homeV2/AboutUs/redRail.svg" alt=""><span>Train Tickets</span></li>
+                </ul>
+                <p>Rent Cabs, Tempo Travellers & Buses with best drivers</p>
+                <div class="rentalsType">
+                    <img src="Assets/ryde_car.svg" alt="">
+                    <p>Outstation</p>
+                </div>
+                <div class="rentalsType">
+                    <img src="Assets/ryde_car_hourly.svg" alt="">
+                    <p>Hourly Rental</p>
+                </div>
+                <div class="rentalsType">
+                    <img src="Assets/ryde_airport_transport.svg" alt="">
+                    <p>Airport Transfers</p>
+                </div>
+                <button class="bookingButton">Book Cab / Bus Rental <i class="fa-solid fa-arrow-right"></i></button>
+            </section>
+
+            <section class="right">
+                <img src="Assets/rydePop.svg" alt="">
+            </section>
+        </div>
+    </div>
+    <div class="partial-container-wrapper">
+        <div class="partial-container">
+            <h1>ENJOY THE APP!</h1>
+            <div class="app-installation-wrapper">
+                <div class="app-installation-left">
+                    <div class="app-installation-left-upper-section">
+                        <div class="app-installation-left-upper-section-item">
+                            <img src="Assets/greentick.svg" alt="">
+                            <p>Quick access</p>
+                        </div>
+                        <div class="app-installation-left-upper-section-item">
+                            <img src="Assets/greentick.svg" alt="">
+                            <p>Superior live tracking</p>
+                        </div>
+                    </div>
+                    <div class="app-installation-left-lower-section">
+                        <div class="app-installation-left-lower-sub-section">
+                            <p>
+                                <label>4.5</label><i class="fa-solid fa-star"></i>
+                            </p>
+                            <p class="downloads">50M+ downloads</p>
+                            <div>Play Store</div>
+                        </div>
+                        <div class="vertical-rule3"></div>
+                        <div class="app-installation-left-lower-sub-section">
+                            <p>
+                                <label>4.6</label><i class="fa-solid fa-star"></i>
+                            </p>
+                            <p class="downloads">50M+ downloads</p>
+                            <div>Apple Store</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="app-installation-right">
+                    <div class="app-installation-right-sub-section">
+                        <p>Scan to <br> download</p>
+                        <img src="Assets/qrCode.svg" alt="">
+                    </div>
+                    <div class="app-installation-right-sub-section">
+                        <p>Download the <br> App on</p>
+                        <img src="./Assets/playStore.svg" alt="">
+                        <img src="Assets/appStore.svg" alt="">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Primo section -->
+    <div class="primo-container">
+        <div class="primo-image-container">
+            <img src="Assets/primoTopBanner.svg" alt="">
+        </div>
+        <div class="primo-card-wrapper">
+            <div class="primo-cards">
+                <div class="primo-card-image">
+                    <img src="Assets/primoSubImg1.svg" alt="">
+                </div>
+                <div class="primo-card-description">
+                    <h2>1 of 5 buses<br>qualify</h2>
+                    <p>Primo's strict safety<br>qualification ensures a <br>safer travel for you</p>
+                </div>
+            </div>
+            
+            <div class="primo-cards">
+                <div class="primo-card-image">
+                    <img src="Assets/primoSubImg2.svg" alt="">
+                </div>
+                <div class="primo-card-description">
+                    <h2>Preferred by<br>90%</h2>
+                    <p>90% of travellers re-book<br>Primo buses for its<br>puncatuality and comfort</p>
+                </div>
+            </div>
+
+            <div class="primo-cards">
+                <div class="primo-card-image">
+                    <img src="Assets/primoSubImg3.svg" alt="">
+                </div>
+                <div class="primo-card-description">
+                    <h2>9 Lac+ monthly<br>travellers</h2>
+                    <p>In 2022, 9Lac+ people<br>traveled with Primo every<br>month</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Partnership-section -->
+    <div class="partnership-container">
+
+        <!-- RTCs section -->
+        <div class="rtcs-container">
+            <h1>PARTNERED WITH</h1>
+            <div class="rtcs-header">
+                <h2>25 RTCs</h2>
+                <a href="#" class="rtcs-button">View All</a>
+            </div>
+            <div class="rtcs-partners">
+                <a href="#">
+                    <img src="https://st.redbus.in/buslogos/country/ind/logo_group/10283.png" alt="">
+                    <p>APSRTC</p>
+                </a>
+                <a href="#">
+                    <img src="https://s3.rdbuz.com/web/images/homeV2/rtc/GSRTC.svg" alt="">
+                    <p>GSRTC</p>
+                </a>
+                <a href="#">
+                    <img src="https://st.redbus.in/Images/carousel/TSRTC.png" alt="">
+                    <p>TSRTC</p>
+                </a>
+                <a href="#">
+                    <img src="https://st.redbus.in/buslogos/country/ind/logo_group/10823.png" alt="">
+                    <p>MSRTC</p>
+                </a>
+                <a href="#">
+                    <img src="https://s3.rdbuz.com/web/images/homeV2/rtc/KERALA-RTC.svg" alt="">
+                    <p>Kerala RTC</p>
+                </a>
+                <a href="#">
+                    <img src="https://st.redbus.in/buslogos/country/ind/logo_group/16426.png" alt="">
+                    <p>SBSTC</p>
+                </a>
+                <a href="#">
+                    <img src="https://s3.rdbuz.com/web/images/homeV2/rtc/RSRTC.svg" alt="">
+                    <p>RSRTC</p>
+                </a>
+                <a href="#">
+                    <img src="https://s3.rdbuz.com/web/images/homeV2/rtc/UPSRTC.svg" alt="">
+                    <p>UPSRTC</p>
+                </a>
+            </div>
+        </div>
+
+        <!-- Partnership section -->
+        <div class="rtcs-container">
+            <div class="rtcs-header">
+                <h2>3500+ Private Bus Operators</h2>
+                <a href="#" class="rtcs-button">View All</a>
+            </div>
+
+            <div class="private-partner-container">
+                <div class="private-partner">
+                    <a href="#">SRS Travels</a>
+                </div>
+
+                <div class="private-partner">
+                    <a href="#">Evacay Bus</a>
+                </div>
+
+                <div class="private-partner">
+                    <a href="#">Kallada Travels</a>
+                </div>
+
+                <div class="private-partner">
+                    <a href="#">KPN Travels</a>
+                </div>
+
+                <div class="private-partner">
+                    <a href="#">Orange Travels</a>
+                </div>
+
+                <div class="private-partner">
+                    <a href="#">Parveen Travels</a>
+                </div>
+
+                <div class="private-partner">
+                    <a href="#">Rajdhani Express</a>
+                </div>
+
+                <div class="private-partner">
+                    <a href="#">VRL Travels</a>
+                </div>
+
+                <div class="private-partner">
+                    <a href="#">Chatered Speed Travels</a>
+                </div>
+
+                <div class="private-partner">
+                    <a href="#">Bengal Tiger</a>
+                </div>
+
+                <div class="private-partner">
+                    <a href="#">SRM Travels</a>
+                </div>
+
+                <div class="private-partner">
+                    <a href="#">Infant Jesus</a>
+                </div>
+
+                <div class="private-partner">
+                    <a href="#">Patel Travels</a>
+                </div>
+
+                <div class="private-partner">
+                    <a href="#">JBT Travels</a>
+                </div>
+
+                <div class="private-partner">
+                    <a href="#">Shatabdi Travels</a>
+                </div>
+
+                <div class="private-partner">
+                    <a href="#">Eagle Travels</a>
+                </div>
+
+                <div class="private-partner">
+                    <a href="#">Kanker Roadways</a>
+                </div>
+
+                <div class="private-partner">
+                    <a href="#">Komitla</a>
+                </div>
+
+                <div class="private-partner">
+                    <a href="#">Sri Krishna Travels</a>
+                </div>
+
+                <div class="private-partner">
+                    <a href="#">Humsafar Travels</a>
+                </div>
+
+                <div class="private-partner">
+                    <a href="#">Mahasagar Travels</a>
+                </div>
+
+                <div class="private-partner">
+                    <a href="#">Raj Express</a>
+                </div>
+
+                <div class="private-partner">
+                    <a href="#">Sharma Travels</a>
+                </div>
+
+                <div class="private-partner">
+                    <a href="#">Shrinath Travels</a>
+                </div>
+                
+            </div>
+        </div>
+    </div>
+
+     <!-- Global Presence section -->
+     <div class="global-presence-container">
+        <h1>GLOBAL PRESENCE</h1>
+        <div class="global-presence-wrapper">
+            <div class="global-presence-item">
+                <img src="Assets/Colombia.svg" alt="Colombia flag">
+                    <p>Colombia</p>
+                </img>
+            </div>
+            <div class="global-presence-item">
+                <img src="Assets/India.svg" alt="Bharat Flag">
+                    <p>Bharat</p>
+                </img>
+            </div>
+            <div class="global-presence-item">
+                <img src="Assets/Indonesia.svg" alt="Indonesia flag">
+                    <p>Indonesia</p>
+                </img>
+            </div>
+            <div class="global-presence-item">
+                <img src="Assets/Malaysia.svg" alt="Malaysia flag">
+                    <p>Malaysia</p>
+                </img>
+            </div>
+            <div class="global-presence-item">
+                <img src="Assets/Peru.svg" alt="Peru flag">
+                    <p>Peru</p>
+                </img>
+            </div>
+            <div class="global-presence-item">
+                <img src="Assets/Singapore.svg" alt="Singapore flag">
+                    <p>Singapore</p>
+                </img>
+            </div>
+        </div>
+    </div>
+
+    <!-- FAQ Section -->
+    <div class="faq-container">
+        <h1>FAQs</h1>
+        <div>
+            <div class="faq-header">
+                <div class="faq-category faq-active">
+                    <p>General</p>
+                    <div class="faq-hover-line faq-hover-line-active"></div>
+                </div>
+
+                <div class="faq-category">
+                    <p>Ticket-related</p>
+                    <div class="faq-hover-line"></div>
+                </div>
+
+                <div class="faq-category">
+                    <p>Payment</p>
+                    <div class="faq-hover-line"></div>
+                </div>
+
+                <div class="faq-category">
+                    <p>Cancellation & Refund</p>
+                    <div class="faq-hover-line"></div>
+                </div>
+
+                <div class="faq-category">
+                    <p>Insurance</p>
+                    <div class="faq-hover-line"></div>
+                </div>
+            </div>
+
+            <div class="faq-question-answers">
+                <div class="question">
+                    <p>Can I track the location of my booked bus online?</p>
+                    <i class="fa-solid fa-plus"></i>
+                </div>
+
+                <div class="question">
+                    <p>What are the advantages of purchasing a bus ticket with redBus?</p>
+                    <i class="fa-solid fa-plus"></i>
+                </div>
+
+                <div class="question">
+                    <p>Why book bus tickets online on redBus?</p>
+                    <i class="fa-solid fa-plus"></i>
+                </div>
+
+                <div class="question">
+                    <p>Do I need to create an account on the redBus site to book my bus ticket?</p>
+                    <i class="fa-solid fa-plus"></i>
+                </div>
+
+                <div class="question">
+                    <p>Does bus booking online cost me more?</p>
+                    <i class="fa-solid fa-plus"></i>
+                </div>
+
+                <div class="question">
+                    <p>How can I get the discounts on the bus booking?</p>
+                    <i class="fa-solid fa-plus"></i>
+                </div>
+
+                <div class="question">
+                    <p>What's New in Bus Booking on redBus?</p>
+                    <i class="fa-solid fa-plus"></i>
+                </div>
+            </div>
+        </div>
+    </div>
+
+   
+
+    <!-- Scroll to top button -->
+    <div class="scroll-to-top-wrapper">
+        <div class="scroll-to-top-button">
+            <img src="Assets/arrow up.png" alt="Scroll to top arrow">
+        </div>
+    </div>
+
+    <!-- Footer section -->
+    <footer id="rb-footer-section">
+        <div class="rb-footer">
+            <ul class="footer-content">
+                <li>
+                    <h2>Top RTCs</h2>
+                    <a href="#">APSRTC</a>
+                    <a href="#">GSRTC</a>
+                    <a href="#">MSRTC</a>
+                    <a href="#">TNSTC</a>
+                    <a href="#">View All</a>
+                </li>
+                
+                <li>
+                    <h2>Other</h2>
+                    <a href="#">TSSRTC</a>
+                    <a href="#">SBRTC</a>
+                    <a href="#">RSRTC</a>
+                    <a href="#">Kerala RTC</a>
+                    <a href="#">View All</a>
+                </li>
+
+                <li>
+                    <h2>Top bus routes</h2>
+                    <a href="#">Hyderabad to Banglore Bus</a>
+                    <a href="#">Banglore to Chennai Bus</a>
+                    <a href="#">Pune to Banglore Bus</a>
+                    <a href="#">Mumbai to Banglore Bus</a>
+                    <a href="#">View All</a>
+                </li>
+
+                <li>
+                    <h2>Top cities</h2>
+                    <a href="#">Hyderabad Bus Tickets</a>
+                    <a href="#">Banglore Bus Tickets</a>
+                    <a href="#">Chennai Bus Tickets</a>
+                    <a href="#">Pune Bus Tickets</a>
+                    <a href="#">View All</a>
+                </li>
+
+                <li>
+                    <h2>redRail</h2>
+                    <a href="#">Book Train Tickets</a>
+                    <a href="#">PNR Status</a>
+                    <a href="#">Live Train Status</a>
+                    <a href="#">Train Seat Availability</a>
+                    <a href="#">Trains between Stations</a>
+                </li>
+            </ul>
+            <div class="horizontal-rule"></div>
+            <ul class="footer-content">
+                <li>
+                    <img src="Assets/rdc-redbus-logo.svg" alt="">
+                    <span>redBus is the world's largest online bus ticket booking service trusted by over 25 million happy customers globally. redBus offers bus ticket booking through its website, iOS and Android mobile apps for all major routes.</span>
+                </li>
+
+                <li>
+                   <h2>About redBus</h2> 
+                   <a href="#">About us</a>
+                   <a href="#">Investor Relations</a>
+                   <a href="#">Contact us</a>
+                   <a href="#">Mobile version</a>
+                   <a href="#">redBus on mobile</a>
+                   <a href="#">Sitemap</a>
+                   <a href="#">Offers</a>
+                   <a href="#">Careers</a>
+                   <a href="#">Values</a>
+                </li>
+
+                <li>
+                    <h2>Info</h2>
+                    <a href="#">T&C</a>
+                    <a href="#">Privacy policy</a>
+                    <a href="#">FAQ</a>
+                    <a href="#">Blog</a>
+                    <a href="#">Bus Operator registration</a>
+                    <a href="#">Agent registration</a>
+                    <a href="#">Insurance partner</a>
+                    <a href="#">User agreement</a>
+                </li>
+
+                <li>
+                    <h2>Global Sites</h2>
+                    <a href="#">India</a>
+                    <a href="#">Singapore</a>
+                    <a href="#">Malaysia</a>
+                    <a href="#">Indonesia</a>
+                    <a href="#">Peru</a>
+                    <a href="#">Colombia</a>
+                </li>
+
+                <li>
+                    <h2>Our Partners</h2>
+                    <a href="#">Goibibo Bus</a>
+                    <a href="#">Goibibo Hotels</a>
+                    <a href="#">Makemytrip Bus</a>
+                    <a href="#">Makemytrip Hotels</a>
+                </li>
+            </ul>
+            <div class="horizontal-rule"></div>
+            <div class="copyrights-social-media">
+                <div class="copyrights"><code>&copy;</code> 2023 Redbus India Pvt Ltd. All rights reserved</div>
+                <div class="social-media">
+                    <img src="Assets/social_facebook_new.svg" alt="facebook">
+                    <img src="Assets/social_linkedin_new.svg" alt="Linkedin">
+                    <img src="Assets/social_twitter_new.svg" alt="X">
+                    <img src="Assets/social_instagram_new.svg" alt="Instagram">
+                </div>
+            </div>
+        </div>
+    </footer>
+</body>
+
+</html>
